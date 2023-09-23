@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Open+Sans:wght@400;600&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  background-color: #f8f9fd;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.login-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5rem auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login-section .form-section {
+  flex: 0 0 50%;
+  background-color: #fff;
+  padding: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .login-section .form-section {
+    flex: 0 0 100%;
+  }
+}
+.login-section .form-section .signin-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto 1rem auto;
+}
+.login-section .form-section .signin-title i {
+  font-size: 2rem;
+  margin-left: 20px;
+  color: #333;
+  transition: 0.3s ease;
+}
+.login-section .form-section .signin-title i:hover {
+  color: #f35586;
+}
+.login-section .form-section form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.login-section .form-section form label {
+  display: inline-block;
+  text-transform: uppercase;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.login-section .form-section form input {
+  width: 90%;
+  height: 3rem;
+  background: #f8f9fd;
+  border: 1px solid #f8f9fd;
+  border-radius: 40px;
+  margin: 0.5rem auto 1rem auto;
+  padding-left: 0.5rem;
+  outline: none;
+}
+.login-section .form-section form span {
+  font-size: 1rem;
+  color: red;
+  display: inline-block;
+  width: 90%;
+  margin: 0.5rem auto;
+}
+.login-section .form-section form button {
+  width: 90%;
+  margin: 1rem auto;
+  background: linear-gradient(to right, #f65860, #f35586);
+  border: none;
+  border-radius: 40px;
+  height: 3rem;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.login-section .form-section form button:hover {
+  background: #f35586;
+}
+.login-section .form-section .under-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-section .form-section .under-form input {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  accent-color: #f35586;
+  cursor: pointer;
+}
+.login-section .form-section .under-form label {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 0.5rem;
+}
+.login-section .form-section .under-form a {
+  color: #333;
+  padding-top: 6px;
+}
+.login-section .text-section {
+  flex: 0 0 50%;
+  background: linear-gradient(to right top, #f65860, #f35586);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .login-section .text-section {
+    flex: 0 0 100%;
+  }
+}
+.login-section .text-section h2 {
+  margin-bottom: 1rem;
+}
+.login-section .text-section button {
+  display: inline-block;
+  height: 3rem;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  color: #fff;
+  width: 120px;
+  font-size: 1rem;
+  margin: 2rem auto;
+}
+.login-section .text-section button:hover {
+  background-color: #fff;
+  color: #333;
+  transition: 0.3s ease;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
